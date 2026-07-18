@@ -87,4 +87,11 @@
 | TC-083 | Wallet | Verify Quick Amount button (₹5000) | Clicking ₹5000 should populate the Amount field with ₹5000. | ₹5000 button populated the Amount field correctly. | Pass |
 | TC-084 | Wallet | Verify invalid amount validation | System should display an appropriate validation message for invalid or empty amounts. | Validation message displayed correctly for invalid input. | Pass |
 | TC-085 | Wallet | Verify Add Funds button | Clicking Add Funds should initiate the payment process after valid input. | Payment process initiated successfully after clicking Add Funds. | Pass |
-| TC-087 | Wallet | Verify Add Funds section responsiveness | Add Funds section should remain properly aligned and usable on different screen sizes. | Add Funds section became misaligned in mobile responsive view. | Fail |
+| TC-086 | Wallet | Verify Add Funds section responsiveness | Add Funds section should remain properly aligned and usable on different screen sizes. | Add Funds section became misaligned in mobile responsive view. | Fail |
+| TC-087 | Wallet | Verify Linked Account section | Linked Account section should be visible with bank/account details. | Linked Account section displayed correctly. | Pass |
+| TC-088 | Wallet | Verify linked account information | Bank name, masked account number, and account holder details should be displayed correctly. | Linked account information displayed correctly. | Pass |
+| TC-089 | Wallet | Verify Upcoming Payments section | Upcoming Payments section should be visible with payment details or an appropriate message. | Upcoming Payments section displayed correctly. | Pass |
+| TC-090 | Wallet | Verify Upcoming Payments data | Upcoming payment details should display correctly if available; otherwise an appropriate message should be shown. | Upcoming payment information displayed correctly. | Pass |
+| TC-091 | Wallet | Verify Auto Top-up section | Auto Top-up section should be visible with an enable/disable toggle. | Auto Top-up section displayed correctly. | Pass |
+| TC-092 | Wallet | Verify Auto Top-up toggle | Auto Top-up toggle should change its state when clicked. | Auto Top-up toggle changed state successfully. | Pass |
+| TC-093 | Wallet | Verify Linked Account and Auto Top-up responsiveness | Linked Account and Auto Top-up sections should remain properly aligned on mobile devices. | Linked Account and Auto Top-up sections became misaligned in mobile responsive view. | Fail |
