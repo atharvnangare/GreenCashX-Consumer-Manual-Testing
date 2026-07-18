@@ -2,3 +2,6 @@
 
 | Bug ID | Page | Bug Description | Steps to Reproduce | Expected Result | Actual Result | Severity | Screenshot |
 |--------|------|-----------------|--------------------|-----------------|---------------|----------|------------|
+| BUG-001 | Wallet | Statement button is not functional | 1. Login to Consumer account.<br>2. Open Wallet page.<br>3. Click the **Statement** button. | Statement page or download should open. | No action is performed when the Statement button is clicked. | Medium | Add Screenshot |
+| BUG-002 | Wallet | Wallet Settings button is not functional | 1. Login to Consumer account.<br>2. Open Wallet page.<br>3. Click the **Settings** button. | Wallet Settings page or dialog should open. | No action is performed when the Settings button is clicked. | Medium | Add Screenshot |
+| BUG-003 | Wallet | Wallet page is not fully responsive on mobile devices | 1. Login to Consumer account.<br>2. Open Wallet page.<br>3. Open Chrome Developer Tools.<br>4. Switch to a mobile device view. | All wallet components should remain properly aligned and responsive. | Several UI components become misaligned in mobile responsive view. | Medium | Add Screenshot |
