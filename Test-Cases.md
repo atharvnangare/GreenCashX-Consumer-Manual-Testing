@@ -17,3 +17,10 @@
 | TC-013 | Dashboard | Verify Energy Source Mix chart          | Donut chart should display correctly              | Chart displayed correctly        | Pass   |
 | TC-014 | Dashboard | Verify chart hover                      | Tooltip appears if supported                      | No hover interaction available   | N/A    |
 | TC-015 | Dashboard | Verify responsive layout                | Dashboard should remain usable on mobile          | Layout remained usable           | Pass   |
+| TC-016 | My Usage | Verify My Usage page loads | My Usage page should load successfully                               | My Usage page loaded successfully                                     | Pass          |
+| TC-017 | My Usage | Verify page title          | "My Usage" title should be displayed correctly                       | "My Usage" title displayed correctly                                  | Pass          |
+| TC-018 | My Usage | Verify Today filter        | Today filter should be selectable and display today's data           | Today filter became active, but displayed data remained the same      | Pass          |
+| TC-019 | My Usage | Verify This Week filter    | This Week filter should be selectable and display this week's data   | This Week filter became active, but displayed data remained the same  | Pass          |
+| TC-020 | My Usage | Verify This Month filter   | This Month filter should be selectable and display this month's data | This Month filter became active, but displayed data remained the same | Pass          |
+| TC-021 | My Usage | Verify Refresh button      | Page should refresh without errors                                   | *(Fill this after you test Refresh)*                                  | Pass |
+| TC-022 | My Usage | Verify Export button       | Export should download a file or open export options                 | *(Fill this after you test Export)*                                   | Pass |
