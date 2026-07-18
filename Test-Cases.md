@@ -69,3 +69,13 @@
 | TC-065 | Wallet | Verify Wallet page alignment | Wallet cards, buttons and text should be properly aligned on desktop view. | Wallet components were properly aligned on desktop view. | Pass |
 | TC-066 | Wallet | Verify Wallet page responsiveness | Wallet page should remain properly aligned and usable on different screen sizes. | Multiple UI components became misaligned in mobile responsive view. | Fail |
 | TC-067 | Wallet | Verify Wallet page refresh | Wallet page should reload successfully without losing layout or functionality. | Wallet page refreshed successfully without issues. | Pass |
+| TC-068 | Wallet | Verify Spent This Month card | Spent This Month card should display the monthly spending amount correctly. | Spent This Month card displayed correctly. | Pass |
+| TC-069 | Wallet | Verify Pending Transactions card | Pending Transactions card should display the correct pending transaction count or amount. | Pending Transactions card displayed correctly. | Pass |
+| TC-070 | Wallet | Verify Total Earnings/Top-ups card | Total Earnings/Top-ups card should display the correct value. | Total Earnings/Top-ups card displayed correctly. | Pass |
+| TC-071 | Wallet | Verify statistics card values | All wallet statistics should display valid numeric values without formatting issues. | All statistics displayed valid values correctly. | Pass |
+| TC-072 | Wallet | Verify statistics card alignment | Statistics cards should be properly aligned without overlapping. | Statistics cards aligned correctly. | Pass |
+| TC-073 | Wallet | Verify Transaction History section | Transaction History section should be visible on the Wallet page. | Transaction History section displayed successfully with "No transactions found" message. | Pass |
+| TC-074 | Wallet | Verify transaction details | Each transaction should display Date, Description, Amount and Status correctly. | No transaction records available for verification. | N/A |
+| TC-075 | Wallet | Verify transaction amount formatting | Transaction amounts should display the correct currency format (₹). | No transaction records available to verify amount formatting. | N/A |
+| TC-076 | Wallet | Verify transaction status badges | Transaction status badges should display correctly (Completed, Pending, Failed, etc.). | No transaction records available to verify status badges. | N/A |
+| TC-077 | Wallet | Verify Transaction History responsiveness | Transaction History section should remain properly aligned on different screen sizes. | Transaction History section remained responsive and properly aligned. | Pass |
