@@ -79,3 +79,12 @@
 | TC-075 | Wallet | Verify transaction amount formatting | Transaction amounts should display the correct currency format (₹). | No transaction records available to verify amount formatting. | N/A |
 | TC-076 | Wallet | Verify transaction status badges | Transaction status badges should display correctly (Completed, Pending, Failed, etc.). | No transaction records available to verify status badges. | N/A |
 | TC-077 | Wallet | Verify Transaction History responsiveness | Transaction History section should remain properly aligned on different screen sizes. | Transaction History section remained responsive and properly aligned. | Pass |
+| TC-078 | Wallet | Verify Add Funds form is displayed | Add Funds form should be visible with all required fields. | Add Funds form displayed correctly. | Pass |
+| TC-079 | Wallet | Verify Amount input field | Amount input field should accept valid numeric values only. | Amount field accepted valid numeric values. | Pass |
+| TC-080 | Wallet | Verify Payment Method dropdown | Payment Method dropdown should display available payment options. | Payment Method dropdown displayed available options. | Pass |
+| TC-081 | Wallet | Verify Quick Amount button (₹1000) | Clicking ₹1000 should populate the Amount field with ₹1000. | ₹1000 button populated the Amount field correctly. | Pass |
+| TC-082 | Wallet | Verify Quick Amount button (₹2000) | Clicking ₹2000 should populate the Amount field with ₹2000. | ₹2000 button populated the Amount field correctly. | Pass |
+| TC-083 | Wallet | Verify Quick Amount button (₹5000) | Clicking ₹5000 should populate the Amount field with ₹5000. | ₹5000 button populated the Amount field correctly. | Pass |
+| TC-084 | Wallet | Verify invalid amount validation | System should display an appropriate validation message for invalid or empty amounts. | Validation message displayed correctly for invalid input. | Pass |
+| TC-085 | Wallet | Verify Add Funds button | Clicking Add Funds should initiate the payment process after valid input. | Payment process initiated successfully after clicking Add Funds. | Pass |
+| TC-087 | Wallet | Verify Add Funds section responsiveness | Add Funds section should remain properly aligned and usable on different screen sizes. | Add Funds section became misaligned in mobile responsive view. | Fail |
