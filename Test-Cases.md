@@ -38,3 +38,24 @@
 | TC-034 | My Usage | Verify chart tooltip | Tooltip should appear on hovering over chart data points | Tooltip displayed correctly | Pass |
 | TC-035 | My Usage | Verify chart responsiveness | Chart should remain properly visible on different screen sizes | Chart remained responsive on different screen sizes | Pass |
 | TC-036 | My Usage | Verify chart loading | Chart should load without distortion or delay | Chart loaded successfully without distortion or delay | Pass |
+| TC-037 | My Usage | Verify Appliance Breakdown section is displayed | Appliance Breakdown section should be visible | Appliance Breakdown section displayed successfully | Pass |
+| TC-038 | My Usage | Verify appliance names | All appliance names should be displayed correctly | Appliance names displayed correctly | Pass |
+| TC-039 | My Usage | Verify appliance consumption values | Consumption values for each appliance should be displayed correctly | Consumption values displayed correctly | Pass |
+| TC-040 | My Usage | Verify appliance icons | Icons for all appliances should be displayed correctly | Appliance icons displayed correctly | Pass |
+| TC-041 | My Usage | Verify appliance consumption units | Consumption values should be displayed in kWh | Consumption units displayed correctly | Pass |
+| TC-042 | My Usage | Verify Appliance Breakdown alignment | Appliance Breakdown layout should be properly aligned | Layout aligned correctly without overlap | Pass |
+| TC-043 | My Usage | Verify Appliance Breakdown responsiveness | Appliance Breakdown should remain usable on different screen sizes | Section remained responsive on different screen sizes | Pass |
+| TC-044 | My Usage | Verify Bill Estimate section is displayed | Bill Estimate section should be visible | Bill Estimate section displayed successfully | Pass |
+| TC-045 | My Usage | Verify estimated bill amount | Estimated bill amount should be displayed correctly | Estimated bill amount displayed correctly | Pass |
+| TC-046 | My Usage | Verify bill amount currency | Bill amount should be displayed in ₹ | Bill amount displayed in ₹ correctly | Pass |
+| TC-047 | My Usage | Verify bill calculation updates with filters | Bill estimate should update according to the selected filter | Bill estimate updated correctly | Pass |
+| TC-048 | My Usage | Verify bill estimate formatting | Bill amount should be properly formatted without truncation or overlap | Bill amount formatted correctly | Pass |
+| TC-049 | My Usage | Verify Bill Estimate alignment | Bill Estimate section should be properly aligned | Bill Estimate section aligned correctly | Pass |
+| TC-050 | My Usage | Verify Bill Estimate responsiveness | Bill Estimate section should remain usable on different screen sizes | Bill Estimate section remained responsive | Pass |
+| TC-051 | My Usage | Verify Month-over-Month Usage section is displayed | Month-over-Month Usage section should be visible | Month-over-Month Usage section displayed successfully | Pass |
+| TC-052 | My Usage | Verify monthly usage data | Monthly usage data should be displayed correctly | Monthly usage data displayed correctly | Pass |
+| TC-053 | My Usage | Verify month labels | All month labels should be displayed correctly | Month labels displayed correctly | Pass |
+| TC-054 | My Usage | Verify usage values | Usage values for each month should be displayed correctly | Usage values displayed correctly | Pass |
+| TC-055 | My Usage | Verify chart/table formatting | Month-over-Month section should be properly formatted | Section formatted correctly | Pass |
+| TC-056 | My Usage | Verify Month-over-Month alignment | Month-over-Month section should be properly aligned | Section aligned correctly | Pass |
+| TC-057 | My Usage | Verify Month-over-Month responsiveness | Section should remain usable on different screen sizes | Section remained responsive on different screen sizes | Pass |
