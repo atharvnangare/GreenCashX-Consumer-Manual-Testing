@@ -24,3 +24,11 @@
 | TC-020 | My Usage | Verify This Month filter | This Month filter should be selectable and display this month's data | This Month filter became active successfully | Pass |
 | TC-021 | My Usage | Verify Refresh button | Page should refresh without errors | Page refreshed successfully without errors | Pass |
 | TC-022 | My Usage | Verify Export button | Export should work successfully | Export function worked successfully | Pass |
+| TC-023 | My Usage | Verify Total Consumption card | Total Consumption card should be displayed correctly | Total Consumption card displayed correctly | Pass |
+| TC-024 | My Usage | Verify P2P Green Share card | P2P Green Share card should be displayed correctly | P2P Green Share card displayed correctly | Pass |
+| TC-025 | My Usage | Verify Grid Draw card | Grid Draw card should be displayed correctly | Grid Draw card displayed correctly | Pass |
+| TC-026 | My Usage | Verify Estimated Bill card | Estimated Bill card should be displayed correctly | Estimated Bill card displayed correctly | Pass |
+| TC-027 | My Usage | Verify KPI card values | All KPI values should be displayed correctly | All KPI values displayed correctly | Pass |
+| TC-028 | My Usage | Verify KPI card units | Correct units (kWh, %, ₹) should be displayed | All units displayed correctly | Pass |
+| TC-029 | My Usage | Verify KPI card icons | Icons should be displayed correctly | All icons displayed correctly | Pass |
+| TC-030 | My Usage | Verify KPI card alignment | KPI cards should be properly aligned without overlap | KPI cards aligned correctly without overlap | Pass |
