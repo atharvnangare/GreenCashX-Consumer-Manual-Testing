@@ -32,3 +32,9 @@
 | TC-028 | My Usage | Verify KPI card units | Correct units (kWh, %, ₹) should be displayed | All units displayed correctly | Pass |
 | TC-029 | My Usage | Verify KPI card icons | Icons should be displayed correctly | All icons displayed correctly | Pass |
 | TC-030 | My Usage | Verify KPI card alignment | KPI cards should be properly aligned without overlap | KPI cards aligned correctly without overlap | Pass |
+| TC-031 | My Usage | Verify Hourly Consumption chart is displayed | Hourly Consumption chart should be visible | Hourly Consumption chart displayed successfully | Pass |
+| TC-032 | My Usage | Verify chart data | Chart should display consumption data correctly | Consumption data displayed correctly | Pass |
+| TC-033 | My Usage | Verify chart labels | X-axis and Y-axis labels should be displayed correctly | Chart labels displayed correctly | Pass |
+| TC-034 | My Usage | Verify chart tooltip | Tooltip should appear on hovering over chart data points (if supported) | Tooltip displayed correctly | Pass |
+| TC-035 | My Usage | Verify chart responsiveness | Chart should remain properly visible on different screen sizes | Chart remained responsive on different screen sizes | Pass |
+| TC-036 | My Usage | Verify chart loading | Chart should load without distortion or delay | Chart loaded successfully without distortion or delay | Pass |
