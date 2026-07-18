@@ -59,3 +59,13 @@
 | TC-055 | My Usage | Verify chart/table formatting | Month-over-Month section should be properly formatted | Section formatted correctly | Pass |
 | TC-056 | My Usage | Verify Month-over-Month alignment | Month-over-Month section should be properly aligned | Section aligned correctly | Pass |
 | TC-057 | My Usage | Verify Month-over-Month responsiveness | Section should remain usable on different screen sizes | Section remained responsive on different screen sizes | Pass |
+| TC-058 | My Usage | Verify page scroll | Page should scroll smoothly without UI issues | Page scrolled smoothly without UI issues | Pass |
+| TC-059 | My Usage | Verify browser refresh | Page should reload successfully after browser refresh | Page reloaded successfully after browser refresh | Pass |
+| TC-060 | My Usage | Verify page after logout and login | My Usage page should load correctly after logging in again | My Usage page loaded correctly after re-login | Pass |
+| TC-061 | My Usage | Verify browser Back button | Browser Back button should navigate correctly without errors | Browser Back button worked correctly | Pass |
+| TC-062 | My Usage | Verify browser Forward button | Browser Forward button should navigate correctly without errors | Browser Forward button worked correctly | Pass |
+| TC-063 | My Usage | Verify page responsiveness | Page should remain usable on different screen sizes | Page remained responsive on different screen sizes | Pass |
+| TC-064 | My Usage | Verify text readability | All text should be clear, readable, and properly aligned | Text displayed clearly and correctly | Pass |
+| TC-065 | My Usage | Verify UI consistency | Fonts, colors, buttons, and spacing should be consistent throughout the page | UI remained consistent throughout the page | Pass |
+| TC-066 | My Usage | Verify data persistence | Data should remain available after page refresh or revisiting the page | Data remained consistent after refresh and revisit | Pass |
+| TC-067 | My Usage | Verify page performance | My Usage page should load within an acceptable time without lag | Page loaded within acceptable time | Pass |
