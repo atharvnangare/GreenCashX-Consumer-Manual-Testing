@@ -175,3 +175,24 @@
 | TC-171 | Settings | Verify Deactivate Account functionality | Deactivation confirmation dialog should appear. | Clicking Deactivate Account performed no action. | Fail |
 | TC-172 | Settings | Verify Settings page responsiveness | Settings page should display correctly on different screen sizes. | Page remained responsive across screen sizes. | Pass |
 | TC-173 | Settings | Verify page refresh behavior | Page should reload without losing data or causing errors. | Page refreshed successfully without issues. | Pass |
+| TC-174 | KYC Status | Verify KYC Status page loads successfully | KYC Status page should load without errors. | KYC Status page loaded successfully. | Pass |
+| TC-175 | KYC Status | Verify page title | "KYC Status" heading should be displayed correctly. | KYC Status heading displayed correctly. | Pass |
+| TC-176 | KYC Status | Verify Buyer Verification Level card | Buyer verification level should display correctly. | Level 2 – Full KYC displayed correctly. | Pass |
+| TC-177 | KYC Status | Verify verification summary | Verification status, account number and verification date should be displayed correctly. | Verification summary displayed correctly. | Pass |
+| TC-178 | KYC Status | Verify Re-KYC due information | Re-KYC due date should be displayed. | Re-KYC due information displayed correctly. | Pass |
+| TC-179 | KYC Status | Verify Document Verification section | Document Verification section should be displayed. | Document Verification section displayed correctly. | Pass |
+| TC-180 | KYC Status | Verify Aadhaar Card verification details | Aadhaar verification details should be displayed correctly. | Aadhaar details displayed correctly. | Pass |
+| TC-181 | KYC Status | Verify PAN Card verification details | PAN verification details should be displayed correctly. | PAN details displayed correctly. | Pass |
+| TC-182 | KYC Status | Verify Bank Account verification details | Bank Account verification details should be displayed correctly. | Bank Account details displayed correctly. | Pass |
+| TC-183 | KYC Status | Verify Address Proof details | Address Proof details should be displayed correctly. | Address Proof displayed correctly. | Pass |
+| TC-184 | KYC Status | Verify Electricity Bill verification details | Electricity Bill verification details should be displayed correctly. | Electricity Bill details displayed correctly. | Pass |
+| TC-185 | KYC Status | Verify Photograph / Live Photo details | Photograph/Live Photo verification should be displayed correctly. | Photograph/Live Photo displayed correctly. | Pass |
+| TC-186 | KYC Status | Verify Upload Additional Document button | Clicking Upload Additional Document should open document upload dialog/page. | Clicking Upload Additional Document performed no action. | Fail |
+| TC-187 | KYC Status | Verify Buyer Limits section | Buyer Limits should display all limits correctly. | Buyer Limits displayed correctly. | Pass |
+| TC-188 | KYC Status | Verify Monthly Usage progress bar | Monthly usage progress bar should display correctly. | Progress bar displayed correctly. | Pass |
+| TC-189 | KYC Status | Verify KYC Level Comparison section | KYC comparison table should display correctly. | KYC comparison table displayed correctly. | Pass |
+| TC-190 | KYC Status | Verify Upgrade to Level 3 (Business) button | Clicking Upgrade to Level 3 should start the Business KYC process. | Clicking Upgrade to Level 3 performed no action. | Fail |
+| TC-191 | KYC Status | Verify Verification Timeline section | Verification Timeline should display all milestones correctly. | Verification Timeline displayed correctly. | Pass |
+| TC-192 | KYC Status | Verify Contact Support button | Clicking Contact Support should open support page/chat/contact form. | Clicking Contact Support performed no action. | Fail |
+| TC-193 | KYC Status | Verify page responsiveness | KYC Status page should remain responsive on different screen sizes. | Page remained responsive. | Pass |
+| TC-194 | KYC Status | Verify page refresh | Refreshing the page should reload data without errors. | Page refreshed successfully. | Pass |
