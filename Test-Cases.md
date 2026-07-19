@@ -115,3 +115,23 @@
 | TC-111 | Marketplace | Verify Lohara zone tab | Clicking Lohara should display only Lohara listings. | Lohara listings displayed successfully. | Pass |
 | TC-112 | Marketplace | Verify Yavatmal zone tab | Clicking Yavatmal should display only Yavatmal listings. | Yavatmal listings displayed successfully. | Pass |
 | TC-113 | Marketplace | Verify Marketplace responsiveness | Marketplace page should remain properly aligned and usable on different screen sizes. | Marketplace page remained properly aligned on different screen sizes. | Pass |
+| TC-114 | My Orders | Verify My Orders page loads successfully | My Orders page should load without any errors. | My Orders page loaded successfully. | Pass |
+| TC-115 | My Orders | Verify My Orders page title | "My Orders" title should be displayed correctly. | My Orders title displayed correctly. | Pass |
+| TC-116 | My Orders | Verify Active Orders card | Active Orders card should display the current number of active orders. | Active Orders card displayed correctly. | Pass |
+| TC-117 | My Orders | Verify Pending Match card | Pending Match card should display the current number of pending matches. | Pending Match card displayed correctly. | Pass |
+| TC-118 | My Orders | Verify Completed (Month) card | Completed (Month) card should display the total completed orders for the current month. | Completed (Month) card displayed correctly. | Pass |
+| TC-119 | My Orders | Verify Total Spend (Month) card | Total Spend (Month) card should display the monthly spending amount. | Total Spend (Month) card displayed correctly. | Pass |
+| TC-120 | My Orders | Verify Place New Buy Order section | Place New Buy Order section should be displayed with all required fields. | Place New Buy Order section displayed correctly. | Pass |
+| TC-121 | My Orders | Verify Quantity Needed input | Quantity Needed field should accept valid numeric values. | Quantity Needed field accepted valid numeric values. | Pass |
+| TC-122 | My Orders | Verify Maximum Price input | Maximum Price field should accept valid numeric values. | Maximum Price field accepted valid numeric values. | Pass |
+| TC-123 | My Orders | Verify Preferred Delivery Window dropdown | Delivery Window dropdown should display available options and allow selection. | Delivery Window dropdown worked correctly. | Pass |
+| TC-124 | My Orders | Verify Preferred Zone dropdown | Preferred Zone dropdown should display available zones and allow selection. | Preferred Zone dropdown worked correctly. | Pass |
+| TC-125 | My Orders | Verify Estimated Cost section | Estimated Cost, Best Available Price and Wallet Balance should be displayed correctly. | Estimated Cost section displayed correctly. | Pass |
+| TC-126 | My Orders | Verify Preview button | Preview button should display the order summary before placing the order. | Preview button worked correctly. | Pass |
+| TC-127 | My Orders | Verify Place Order button | Clicking Place Order should submit the order after valid inputs. | Order placed successfully. | Pass |
+| TC-128 | My Orders | Verify Orders table | Orders table should display all available orders correctly. | Orders table displayed correctly. | Pass |
+| TC-129 | My Orders | Verify Order details | Each order should display Order ID, Quantity, Price, Seller, Window, Placed Date, Status, Amount and Action correctly. | Order details displayed correctly. | Pass |
+| TC-130 | My Orders | Verify Order Status badges | Status badges (Cancelled, Pending Match, Delivering, Completed) should be displayed correctly. | Status badges displayed correctly. | Pass |
+| TC-131 | My Orders | Verify View / Track / Cancel actions | View, Track and Cancel actions should perform their respective operations correctly. | Action buttons worked correctly. | Pass |
+| TC-132 | My Orders | Verify Order Summary section | Total kWh Bought, Pending Amount and Total Spent should be displayed correctly. | Order Summary displayed correctly. | Pass |
+| TC-133 | My Orders | Verify My Orders page responsiveness | My Orders page should remain properly aligned and usable on different screen sizes. | My Orders page remained properly aligned on different screen sizes. | Pass |
