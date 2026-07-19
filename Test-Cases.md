@@ -155,3 +155,23 @@
 | TC-151 | Purchase History | Verify Last 60 Days filter | Clicking Last 60 Days should display purchase records for the last 60 days only. | Last 60 Days filter worked correctly. | Pass |
 | TC-152 | Purchase History | Verify All Time filter | Clicking All Time should display the complete purchase history. | All Time filter worked correctly. | Pass |
 | TC-153 | Purchase History | Verify Purchase History page responsiveness | Purchase History page should remain properly aligned and usable on different screen sizes. | Purchase History page remained properly aligned on different screen sizes. | Pass |
+| TC-154 | Settings | Verify Settings page loads successfully | Settings page should load without errors. | Settings page loaded successfully. | Pass |
+| TC-155 | Settings | Verify page title/header | Correct "Settings" page title should be displayed. | Settings title displayed correctly. | Pass |
+| TC-156 | Settings | Verify profile information is displayed | User profile details should be displayed correctly. | Profile information displayed correctly. | Pass |
+| TC-157 | Settings | Verify editable profile fields | Editable fields should accept valid input. | Editable fields accepted valid input. | Pass |
+| TC-158 | Settings | Verify Consumer ID is read-only | Consumer ID should not be editable. | Consumer ID is read-only. | Pass |
+| TC-159 | Settings | Verify Save Changes functionality | Updated profile information should be saved successfully. | Clicking Save Changes performed no action. | Fail |
+| TC-160 | Settings | Verify Notification Preference toggles | Notification toggles should switch between ON and OFF. | Notification toggles worked correctly. | Pass |
+| TC-161 | Settings | Verify Default Max Price field | User should be able to enter a valid maximum price. | Field accepted valid input. | Pass |
+| TC-162 | Settings | Verify Default Quantity field | User should be able to enter a valid quantity. | Field accepted valid input. | Pass |
+| TC-163 | Settings | Verify Preferred Delivery Window selection | Delivery window should be selectable. | Delivery window selection worked correctly. | Pass |
+| TC-164 | Settings | Verify Preferred Energy Zone selection | Energy zone should be selectable. | Energy zone selection worked correctly. | Pass |
+| TC-165 | Settings | Verify Auto-buying Rule toggles | Auto-buying toggles should switch between ON and OFF. | Auto-buying toggles worked correctly. | Pass |
+| TC-166 | Settings | Verify settings layout and UI alignment | All UI components should be properly aligned and responsive. | Layout displayed correctly. | Pass |
+| TC-167 | Settings | Verify Change Password functionality | Password change screen/dialog should open. | Clicking Change Password performed no action. | Fail |
+| TC-168 | Settings | Verify Enable Two-Factor Authentication functionality | 2FA setup process should start. | Clicking Enable performed no action. | Fail |
+| TC-169 | Settings | Verify Logout Others functionality | All other active sessions should be logged out or a confirmation dialog should appear. | Clicking Logout Others performed no action. | Fail |
+| TC-170 | Settings | Verify Export My Data functionality | User data should be exported/downloaded successfully. | Clicking Export performed no action. | Fail |
+| TC-171 | Settings | Verify Deactivate Account functionality | Deactivation confirmation dialog should appear. | Clicking Deactivate Account performed no action. | Fail |
+| TC-172 | Settings | Verify Settings page responsiveness | Settings page should display correctly on different screen sizes. | Page remained responsive across screen sizes. | Pass |
+| TC-173 | Settings | Verify page refresh behavior | Page should reload without losing data or causing errors. | Page refreshed successfully without issues. | Pass |
