@@ -87,112 +87,110 @@
 | TC-083 | Wallet | Verify Quick Amount button (₹5000) | Clicking ₹5000 should populate the Amount field with ₹5000. | ₹5000 button populated the Amount field correctly. | Pass |
 | TC-084 | Wallet | Verify invalid amount validation | System should display an appropriate validation message for invalid or empty amounts. | Validation message displayed correctly for invalid input. | Pass |
 | TC-085 | Wallet | Verify Add Funds button | Clicking Add Funds should initiate the payment process after valid input. | Payment process initiated successfully after clicking Add Funds. | Pass |
-| TC-086 | Wallet | Verify Add Funds section responsiveness | Add Funds section should remain properly aligned and usable on different screen sizes. | Add Funds section became misaligned in mobile responsive view. | Fail |
-| TC-087 | Wallet | Verify Linked Account section | Linked Account section should be visible with bank/account details. | Linked Account section displayed correctly. | Pass |
-| TC-088 | Wallet | Verify linked account information | Bank name, masked account number, and account holder details should be displayed correctly. | Linked account information displayed correctly. | Pass |
-| TC-089 | Wallet | Verify Upcoming Payments section | Upcoming Payments section should be visible with payment details or an appropriate message. | Upcoming Payments section displayed correctly. | Pass |
-| TC-090 | Wallet | Verify Upcoming Payments data | Upcoming payment details should display correctly if available; otherwise an appropriate message should be shown. | Upcoming payment information displayed correctly. | Pass |
-| TC-091 | Wallet | Verify Auto Top-up section | Auto Top-up section should be visible with an enable/disable toggle. | Auto Top-up section displayed correctly. | Pass |
-| TC-092 | Wallet | Verify Auto Top-up toggle | Auto Top-up toggle should change its state when clicked. | Auto Top-up toggle changed state successfully. | Pass |
-| TC-093 | Wallet | Verify Linked Account and Auto Top-up responsiveness | Linked Account and Auto Top-up sections should remain properly aligned on mobile devices. | Linked Account and Auto Top-up sections became misaligned in mobile responsive view. | Fail |
-| TC-094 | Marketplace | Verify Marketplace page loads successfully | Marketplace page should load without any errors. | Marketplace page loaded successfully. | Pass |
-| TC-095 | Marketplace | Verify Marketplace page title | "Marketplace" title should be displayed correctly. | Marketplace title displayed correctly. | Pass |
-| TC-096 | Marketplace | Verify Available Listings card | Available Listings card should display the total number of listings. | Available Listings card displayed correctly with listing count. | Pass |
-| TC-097 | Marketplace | Verify Best Price Today card | Best Price Today card should display the lowest available price. | Best Price Today card displayed correctly. | Pass |
-| TC-098 | Marketplace | Verify Average Market Price card | Average Market Price card should display the average market price. | Average Market Price card displayed correctly. | Pass |
-| TC-099 | Marketplace | Verify My Active Orders card | My Active Orders card should display the active order count. | My Active Orders card displayed correctly. | Pass |
-| TC-100 | Marketplace | Verify Zone filter | Zone filter should filter listings based on the selected zone. | Zone filter worked correctly. | Pass |
-| TC-101 | Marketplace | Verify Time Window filter | Time Window filter should filter listings according to the selected delivery window. | Time Window filter worked correctly. | Pass |
-| TC-102 | Marketplace | Verify Quantity filter | Quantity filter should filter listings based on the selected quantity. | Quantity filter worked correctly. | Pass |
-| TC-103 | Marketplace | Verify Price filter | Price filter should filter listings according to the selected price range. | Price filter worked correctly. | Pass |
-| TC-104 | Marketplace | Verify KYC Verified Only filter | Only KYC verified listings should be displayed when the filter is enabled. | KYC Verified Only filter worked correctly. | Pass |
-| TC-105 | Marketplace | Verify Search functionality | Search should display matching listings based on Seller Name or Listing ID. | Search returned matching listings successfully. | Pass |
-| TC-106 | Marketplace | Verify Search with invalid input | An appropriate message should be displayed when no matching listings are found. | Appropriate message displayed for invalid search. | Pass |
-| TC-107 | Marketplace | Verify Sort (Best Price) | Listings should be sorted according to the selected sorting option. | Listings sorted correctly by Best Price. | Pass |
-| TC-108 | Marketplace | Verify Refresh button | Clicking Refresh should reload the latest marketplace data. | Marketplace data refreshed successfully. | Pass |
-| TC-109 | Marketplace | Verify Export button | Clicking Export should download/export the marketplace listing data. | Marketplace data exported successfully. | Pass |
-| TC-110 | Marketplace | Verify All Zones tab | Clicking All Zones should display listings from all available zones. | All Zones displayed listings successfully. | Pass |
-| TC-111 | Marketplace | Verify Lohara zone tab | Clicking Lohara should display only Lohara listings. | Lohara listings displayed successfully. | Pass |
-| TC-112 | Marketplace | Verify Yavatmal zone tab | Clicking Yavatmal should display only Yavatmal listings. | Yavatmal listings displayed successfully. | Pass |
-| TC-113 | Marketplace | Verify Marketplace responsiveness | Marketplace page should remain properly aligned and usable on different screen sizes. | Marketplace page remained properly aligned on different screen sizes. | Pass |
-| TC-114 | My Orders | Verify My Orders page loads successfully | My Orders page should load without any errors. | My Orders page loaded successfully. | Pass |
-| TC-115 | My Orders | Verify My Orders page title | "My Orders" title should be displayed correctly. | My Orders title displayed correctly. | Pass |
-| TC-116 | My Orders | Verify Active Orders card | Active Orders card should display the current number of active orders. | Active Orders card displayed correctly. | Pass |
-| TC-117 | My Orders | Verify Pending Match card | Pending Match card should display the current number of pending matches. | Pending Match card displayed correctly. | Pass |
-| TC-118 | My Orders | Verify Completed (Month) card | Completed (Month) card should display the total completed orders for the current month. | Completed (Month) card displayed correctly. | Pass |
-| TC-119 | My Orders | Verify Total Spend (Month) card | Total Spend (Month) card should display the monthly spending amount. | Total Spend (Month) card displayed correctly. | Pass |
-| TC-120 | My Orders | Verify Place New Buy Order section | Place New Buy Order section should be displayed with all required fields. | Place New Buy Order section displayed correctly. | Pass |
-| TC-121 | My Orders | Verify Quantity Needed input | Quantity Needed field should accept valid numeric values. | Quantity Needed field accepted valid numeric values. | Pass |
-| TC-122 | My Orders | Verify Maximum Price input | Maximum Price field should accept valid numeric values. | Maximum Price field accepted valid numeric values. | Pass |
-| TC-123 | My Orders | Verify Preferred Delivery Window dropdown | Delivery Window dropdown should display available options and allow selection. | Delivery Window dropdown worked correctly. | Pass |
-| TC-124 | My Orders | Verify Preferred Zone dropdown | Preferred Zone dropdown should display available zones and allow selection. | Preferred Zone dropdown worked correctly. | Pass |
-| TC-125 | My Orders | Verify Estimated Cost section | Estimated Cost, Best Available Price and Wallet Balance should be displayed correctly. | Estimated Cost section displayed correctly. | Pass |
-| TC-126 | My Orders | Verify Preview button | Preview button should display the order summary before placing the order. | Preview button worked correctly. | Pass |
-| TC-127 | My Orders | Verify Place Order button | Clicking Place Order should submit the order after valid inputs. | Order placed successfully. | Pass |
-| TC-128 | My Orders | Verify Orders table | Orders table should display all available orders correctly. | Orders table displayed correctly. | Pass |
-| TC-129 | My Orders | Verify Order details | Each order should display Order ID, Quantity, Price, Seller, Window, Placed Date, Status, Amount and Action correctly. | Order details displayed correctly. | Pass |
-| TC-130 | My Orders | Verify Order Status badges | Status badges (Cancelled, Pending Match, Delivering, Completed) should be displayed correctly. | Status badges displayed correctly. | Pass |
-| TC-131 | My Orders | Verify View / Track / Cancel actions | View, Track and Cancel actions should perform their respective operations correctly. | Action buttons worked correctly. | Pass |
-| TC-132 | My Orders | Verify Order Summary section | Total kWh Bought, Pending Amount and Total Spent should be displayed correctly. | Order Summary displayed correctly. | Pass |
-| TC-133 | My Orders | Verify My Orders page responsiveness | My Orders page should remain properly aligned and usable on different screen sizes. | My Orders page remained properly aligned on different screen sizes. | Pass |
-| TC-134 | Purchase History | Verify Purchase History page loads successfully | Purchase History page should load without errors. | Purchase History page loaded successfully. | Pass |
-| TC-135 | Purchase History | Verify Purchase History page title | "Purchase History" title should be displayed correctly. | Purchase History title displayed correctly. | Pass |
-| TC-136 | Purchase History | Verify Total Purchases card | Total Purchases card should display the total number of purchases. | Total Purchases card displayed correctly. | Pass |
-| TC-137 | Purchase History | Verify Total kWh Bought card | Total kWh Bought card should display the purchased energy correctly. | Total kWh Bought card displayed correctly. | Pass |
-| TC-138 | Purchase History | Verify Total Spent card | Total Spent card should display the total spending amount correctly. | Total Spent card displayed correctly. | Pass |
-| TC-139 | Purchase History | Verify Average Price Paid card | Average Price Paid card should display the average price correctly. | Average Price Paid card displayed correctly. | Pass |
-| TC-140 | Purchase History | Verify Seller filter | Seller filter should filter purchase records based on the selected seller. | Seller filter worked correctly. | Pass |
-| TC-141 | Purchase History | Verify Status filter | Status filter should display records matching the selected status. | Status filter worked correctly. | Pass |
-| TC-142 | Purchase History | Verify Amount filter | Amount filter should display records matching the selected amount range. | Amount filter worked correctly. | Pass |
-| TC-143 | Purchase History | Verify Date sorting | Date sorting should arrange purchase records according to the selected order. | Date sorting worked correctly. | Pass |
-| TC-144 | Purchase History | Verify Search functionality | Search should return matching Order ID or Seller Name. | Search returned matching records successfully. | Pass |
-| TC-145 | Purchase History | Verify Apply button | Apply button should apply all selected filters successfully. | Filters applied successfully. | Pass |
-| TC-146 | Purchase History | Verify Export CSV button | Export CSV should download the purchase history in CSV format. | CSV exported successfully. | Pass |
-| TC-147 | Purchase History | Verify Purchase Log table | Purchase Log should display all purchase records correctly. | Purchase Log displayed correctly. | Pass |
-| TC-148 | Purchase History | Verify Purchase Log details | Order ID, Date & Time, Quantity, Rate, Seller, Gross, Fee, Net Paid, CO₂ Saved and Status should display correctly. | Purchase details displayed correctly. | Pass |
-| TC-149 | Purchase History | Verify Status column | Status column should display the correct purchase status. | Status displayed correctly. | Pass |
-| TC-150 | Purchase History | Verify Summary section | Gross Paid, Total CO₂ Saved and Total Settled should display correctly. | Summary section displayed correctly. | Pass |
-| TC-151 | Purchase History | Verify Last 60 Days filter | Clicking Last 60 Days should display purchase records for the last 60 days only. | Last 60 Days filter worked correctly. | Pass |
-| TC-152 | Purchase History | Verify All Time filter | Clicking All Time should display the complete purchase history. | All Time filter worked correctly. | Pass |
-| TC-153 | Purchase History | Verify Purchase History page responsiveness | Purchase History page should remain properly aligned and usable on different screen sizes. | Purchase History page remained properly aligned on different screen sizes. | Pass |
-| TC-154 | Settings | Verify Settings page loads successfully | Settings page should load without errors. | Settings page loaded successfully. | Pass |
-| TC-155 | Settings | Verify page title/header | Correct "Settings" page title should be displayed. | Settings title displayed correctly. | Pass |
-| TC-156 | Settings | Verify profile information is displayed | User profile details should be displayed correctly. | Profile information displayed correctly. | Pass |
-| TC-157 | Settings | Verify editable profile fields | Editable fields should accept valid input. | Editable fields accepted valid input. | Pass |
-| TC-158 | Settings | Verify Consumer ID is read-only | Consumer ID should not be editable. | Consumer ID is read-only. | Pass |
-| TC-159 | Settings | Verify Save Changes functionality | Updated profile information should be saved successfully. | Clicking Save Changes performed no action. | Fail |
-| TC-160 | Settings | Verify Notification Preference toggles | Notification toggles should switch between ON and OFF. | Notification toggles worked correctly. | Pass |
-| TC-161 | Settings | Verify Default Max Price field | User should be able to enter a valid maximum price. | Field accepted valid input. | Pass |
-| TC-162 | Settings | Verify Default Quantity field | User should be able to enter a valid quantity. | Field accepted valid input. | Pass |
-| TC-163 | Settings | Verify Preferred Delivery Window selection | Delivery window should be selectable. | Delivery window selection worked correctly. | Pass |
-| TC-164 | Settings | Verify Preferred Energy Zone selection | Energy zone should be selectable. | Energy zone selection worked correctly. | Pass |
-| TC-165 | Settings | Verify Auto-buying Rule toggles | Auto-buying toggles should switch between ON and OFF. | Auto-buying toggles worked correctly. | Pass |
-| TC-166 | Settings | Verify settings layout and UI alignment | All UI components should be properly aligned and responsive. | Layout displayed correctly. | Pass |
-| TC-167 | Settings | Verify Change Password functionality | Password change screen/dialog should open. | Clicking Change Password performed no action. | Fail |
-| TC-168 | Settings | Verify Enable Two-Factor Authentication functionality | 2FA setup process should start. | Clicking Enable performed no action. | Fail |
-| TC-169 | Settings | Verify Logout Others functionality | All other active sessions should be logged out or a confirmation dialog should appear. | Clicking Logout Others performed no action. | Fail |
-| TC-170 | Settings | Verify Export My Data functionality | User data should be exported/downloaded successfully. | Clicking Export performed no action. | Fail |
-| TC-171 | Settings | Verify Deactivate Account functionality | Deactivation confirmation dialog should appear. | Clicking Deactivate Account performed no action. | Fail |
-| TC-172 | Settings | Verify Settings page responsiveness | Settings page should display correctly on different screen sizes. | Page remained responsive across screen sizes. | Pass |
-| TC-173 | Settings | Verify page refresh behavior | Page should reload without losing data or causing errors. | Page refreshed successfully without issues. | Pass |
-| TC-174 | KYC Status | Verify KYC Status page loads successfully | KYC Status page should load without errors. | KYC Status page loaded successfully. | Pass |
-| TC-175 | KYC Status | Verify page title | "KYC Status" heading should be displayed correctly. | KYC Status heading displayed correctly. | Pass |
-| TC-176 | KYC Status | Verify Buyer Verification Level card | Buyer verification level should display correctly. | Level 2 – Full KYC displayed correctly. | Pass |
-| TC-177 | KYC Status | Verify verification summary | Verification status, account number and verification date should be displayed correctly. | Verification summary displayed correctly. | Pass |
-| TC-178 | KYC Status | Verify Re-KYC due information | Re-KYC due date should be displayed. | Re-KYC due information displayed correctly. | Pass |
-| TC-179 | KYC Status | Verify Document Verification section | Document Verification section should be displayed. | Document Verification section displayed correctly. | Pass |
-| TC-180 | KYC Status | Verify Aadhaar Card verification details | Aadhaar verification details should be displayed correctly. | Aadhaar details displayed correctly. | Pass |
-| TC-181 | KYC Status | Verify PAN Card verification details | PAN verification details should be displayed correctly. | PAN details displayed correctly. | Pass |
-| TC-182 | KYC Status | Verify Bank Account verification details | Bank Account verification details should be displayed correctly. | Bank Account details displayed correctly. | Pass |
-| TC-183 | KYC Status | Verify Address Proof details | Address Proof details should be displayed correctly. | Address Proof displayed correctly. | Pass |
-| TC-184 | KYC Status | Verify Electricity Bill verification details | Electricity Bill verification details should be displayed correctly. | Electricity Bill details displayed correctly. | Pass |
-| TC-185 | KYC Status | Verify Photograph / Live Photo details | Photograph/Live Photo verification should be displayed correctly. | Photograph/Live Photo displayed correctly. | Pass |
-| TC-186 | KYC Status | Verify Upload Additional Document button | Clicking Upload Additional Document should open document upload dialog/page. | Clicking Upload Additional Document performed no action. | Fail |
-| TC-187 | KYC Status | Verify Buyer Limits section | Buyer Limits should display all limits correctly. | Buyer Limits displayed correctly. | Pass |
-| TC-188 | KYC Status | Verify Monthly Usage progress bar | Monthly usage progress bar should display correctly. | Progress bar displayed correctly. | Pass |
-| TC-189 | KYC Status | Verify KYC Level Comparison section | KYC comparison table should display correctly. | KYC comparison table displayed correctly. | Pass |
-| TC-190 | KYC Status | Verify Upgrade to Level 3 (Business) button | Clicking Upgrade to Level 3 should start the Business KYC process. | Clicking Upgrade to Level 3 performed no action. | Fail |
-| TC-191 | KYC Status | Verify Verification Timeline section | Verification Timeline should display all milestones correctly. | Verification Timeline displayed correctly. | Pass |
-| TC-192 | KYC Status | Verify Contact Support button | Clicking Contact Support should open support page/chat/contact form. | Clicking Contact Support performed no action. | Fail |
+| TC-086 | Wallet | Verify Linked Account section | Linked Account section should be visible with bank/account details. | Linked Account section displayed correctly. | Pass |
+| TC-087 | Wallet | Verify linked account information | Bank name, masked account number, and account holder details should be displayed correctly. | Linked account information displayed correctly. | Pass |
+| TC-088 | Wallet | Verify Upcoming Payments section | Upcoming Payments section should be visible with payment details or an appropriate message. | Upcoming Payments section displayed correctly. | Pass |
+| TC-089 | Wallet | Verify Upcoming Payments data | Upcoming payment details should display correctly if available; otherwise an appropriate message should be shown. | Upcoming payment information displayed correctly. | Pass |
+| TC-090 | Wallet | Verify Auto Top-up section | Auto Top-up section should be visible with an enable/disable toggle. | Auto Top-up section displayed correctly. | Pass |
+| TC-091 | Wallet | Verify Auto Top-up toggle | Auto Top-up toggle should change its state when clicked. | Auto Top-up toggle changed state successfully. | Pass |
+| TC-092 | Marketplace | Verify Marketplace page loads successfully | Marketplace page should load without any errors. | Marketplace page loaded successfully. | Pass |
+| TC-093 | Marketplace | Verify Marketplace page title | "Marketplace" title should be displayed correctly. | Marketplace title displayed correctly. | Pass |
+| TC-094 | Marketplace | Verify Available Listings card | Available Listings card should display the total number of listings. | Available Listings card displayed correctly with listing count. | Pass |
+| TC-095 | Marketplace | Verify Best Price Today card | Best Price Today card should display the lowest available price. | Best Price Today card displayed correctly. | Pass |
+| TC-096 | Marketplace | Verify Average Market Price card | Average Market Price card should display the average market price. | Average Market Price card displayed correctly. | Pass |
+| TC-097 | Marketplace | Verify My Active Orders card | My Active Orders card should display the active order count. | My Active Orders card displayed correctly. | Pass |
+| TC-098 | Marketplace | Verify Zone filter | Zone filter should filter listings based on the selected zone. | Zone filter worked correctly. | Pass |
+| TC-099 | Marketplace | Verify Time Window filter | Time Window filter should filter listings according to the selected delivery window. | Time Window filter worked correctly. | Pass |
+| TC-100 | Marketplace | Verify Quantity filter | Quantity filter should filter listings based on the selected quantity. | Quantity filter worked correctly. | Pass |
+| TC-101 | Marketplace | Verify Price filter | Price filter should filter listings according to the selected price range. | Price filter worked correctly. | Pass |
+| TC-102 | Marketplace | Verify KYC Verified Only filter | Only KYC verified listings should be displayed when the filter is enabled. | KYC Verified Only filter worked correctly. | Pass |
+| TC-103 | Marketplace | Verify Search functionality | Search should display matching listings based on Seller Name or Listing ID. | Search returned matching listings successfully. | Pass |
+| TC-104 | Marketplace | Verify Search with invalid input | An appropriate message should be displayed when no matching listings are found. | Appropriate message displayed for invalid search. | Pass |
+| TC-105 | Marketplace | Verify Sort (Best Price) | Listings should be sorted according to the selected sorting option. | Listings sorted correctly by Best Price. | Pass |
+| TC-106 | Marketplace | Verify Refresh button | Clicking Refresh should reload the latest marketplace data. | Marketplace data refreshed successfully. | Pass |
+| TC-107 | Marketplace | Verify Export button | Clicking Export should download/export the marketplace listing data. | Marketplace data exported successfully. | Pass |
+| TC-108 | Marketplace | Verify All Zones tab | Clicking All Zones should display listings from all available zones. | All Zones displayed listings successfully. | Pass |
+| TC-109 | Marketplace | Verify Lohara zone tab | Clicking Lohara should display only Lohara listings. | Lohara listings displayed successfully. | Pass |
+| TC-110 | Marketplace | Verify Yavatmal zone tab | Clicking Yavatmal should display only Yavatmal listings. | Yavatmal listings displayed successfully. | Pass |
+| TC-111 | Marketplace | Verify Marketplace responsiveness | Marketplace page should remain properly aligned and usable on different screen sizes. | Marketplace page remained properly aligned on different screen sizes. | Pass |
+| TC-112 | My Orders | Verify My Orders page loads successfully | My Orders page should load without any errors. | My Orders page loaded successfully. | Pass |
+| TC-113 | My Orders | Verify My Orders page title | "My Orders" title should be displayed correctly. | My Orders title displayed correctly. | Pass |
+| TC-114 | My Orders | Verify Active Orders card | Active Orders card should display the current number of active orders. | Active Orders card displayed correctly. | Pass |
+| TC-115 | My Orders | Verify Pending Match card | Pending Match card should display the current number of pending matches. | Pending Match card displayed correctly. | Pass |
+| TC-116 | My Orders | Verify Completed (Month) card | Completed (Month) card should display the total completed orders for the current month. | Completed (Month) card displayed correctly. | Pass |
+| TC-117 | My Orders | Verify Total Spend (Month) card | Total Spend (Month) card should display the monthly spending amount. | Total Spend (Month) card displayed correctly. | Pass |
+| TC-118 | My Orders | Verify Place New Buy Order section | Place New Buy Order section should be displayed with all required fields. | Place New Buy Order section displayed correctly. | Pass |
+| TC-119 | My Orders | Verify Quantity Needed input | Quantity Needed field should accept valid numeric values. | Quantity Needed field accepted valid numeric values. | Pass |
+| TC-120 | My Orders | Verify Maximum Price input | Maximum Price field should accept valid numeric values. | Maximum Price field accepted valid numeric values. | Pass |
+| TC-121 | My Orders | Verify Preferred Delivery Window dropdown | Delivery Window dropdown should display available options and allow selection. | Delivery Window dropdown worked correctly. | Pass |
+| TC-122 | My Orders | Verify Preferred Zone dropdown | Preferred Zone dropdown should display available zones and allow selection. | Preferred Zone dropdown worked correctly. | Pass |
+| TC-123 | My Orders | Verify Estimated Cost section | Estimated Cost, Best Available Price and Wallet Balance should be displayed correctly. | Estimated Cost section displayed correctly. | Pass |
+| TC-124 | My Orders | Verify Preview button | Preview button should display the order summary before placing the order. | Preview button worked correctly. | Pass |
+| TC-125 | My Orders | Verify Place Order button | Clicking Place Order should submit the order after valid inputs. | Order placed successfully. | Pass |
+| TC-126 | My Orders | Verify Orders table | Orders table should display all available orders correctly. | Orders table displayed correctly. | Pass |
+| TC-127 | My Orders | Verify Order details | Each order should display Order ID, Quantity, Price, Seller, Window, Placed Date, Status, Amount and Action correctly. | Order details displayed correctly. | Pass |
+| TC-128 | My Orders | Verify Order Status badges | Status badges (Cancelled, Pending Match, Delivering, Completed) should be displayed correctly. | Status badges displayed correctly. | Pass |
+| TC-129 | My Orders | Verify View / Track / Cancel actions | View, Track and Cancel actions should perform their respective operations correctly. | Action buttons worked correctly. | Pass |
+| TC-130 | My Orders | Verify Order Summary section | Total kWh Bought, Pending Amount and Total Spent should be displayed correctly. | Order Summary displayed correctly. | Pass |
+| TC-131 | My Orders | Verify My Orders page responsiveness | My Orders page should remain properly aligned and usable on different screen sizes. | My Orders page remained properly aligned on different screen sizes. | Pass |
+| TC-132 | Purchase History | Verify Purchase History page loads successfully | Purchase History page should load without errors. | Purchase History page loaded successfully. | Pass |
+| TC-133 | Purchase History | Verify Purchase History page title | "Purchase History" title should be displayed correctly. | Purchase History title displayed correctly. | Pass |
+| TC-134 | Purchase History | Verify Total Purchases card | Total Purchases card should display the total number of purchases. | Total Purchases card displayed correctly. | Pass |
+| TC-135 | Purchase History | Verify Total kWh Bought card | Total kWh Bought card should display the purchased energy correctly. | Total kWh Bought card displayed correctly. | Pass |
+| TC-136 | Purchase History | Verify Total Spent card | Total Spent card should display the total spending amount correctly. | Total Spent card displayed correctly. | Pass |
+| TC-137 | Purchase History | Verify Average Price Paid card | Average Price Paid card should display the average price correctly. | Average Price Paid card displayed correctly. | Pass |
+| TC-138 | Purchase History | Verify Seller filter | Seller filter should filter purchase records based on the selected seller. | Seller filter worked correctly. | Pass |
+| TC-139 | Purchase History | Verify Status filter | Status filter should display records matching the selected status. | Status filter worked correctly. | Pass |
+| TC-140 | Purchase History | Verify Amount filter | Amount filter should display records matching the selected amount range. | Amount filter worked correctly. | Pass |
+| TC-141 | Purchase History | Verify Date sorting | Date sorting should arrange purchase records according to the selected order. | Date sorting worked correctly. | Pass |
+| TC-142 | Purchase History | Verify Search functionality | Search should return matching Order ID or Seller Name. | Search returned matching records successfully. | Pass |
+| TC-143 | Purchase History | Verify Apply button | Apply button should apply all selected filters successfully. | Filters applied successfully. | Pass |
+| TC-144 | Purchase History | Verify Export CSV button | Export CSV should download the purchase history in CSV format. | CSV exported successfully. | Pass |
+| TC-145 | Purchase History | Verify Purchase Log table | Purchase Log should display all purchase records correctly. | Purchase Log displayed correctly. | Pass |
+| TC-146 | Purchase History | Verify Purchase Log details | Order ID, Date & Time, Quantity, Rate, Seller, Gross, Fee, Net Paid, CO₂ Saved and Status should display correctly. | Purchase details displayed correctly. | Pass |
+| TC-147 | Purchase History | Verify Status column | Status column should display the correct purchase status. | Status displayed correctly. | Pass |
+| TC-148 | Purchase History | Verify Summary section | Gross Paid, Total CO₂ Saved and Total Settled should display correctly. | Summary section displayed correctly. | Pass |
+| TC-149 | Purchase History | Verify Last 60 Days filter | Clicking Last 60 Days should display purchase records for the last 60 days only. | Last 60 Days filter worked correctly. | Pass |
+| TC-150 | Purchase History | Verify All Time filter | Clicking All Time should display the complete purchase history. | All Time filter worked correctly. | Pass |
+| TC-151 | Purchase History | Verify Purchase History page responsiveness | Purchase History page should remain properly aligned and usable on different screen sizes. | Purchase History page remained properly aligned on different screen sizes. | Pass |
+| TC-152 | Settings | Verify Settings page loads successfully | Settings page should load without errors. | Settings page loaded successfully. | Pass |
+| TC-153 | Settings | Verify page title/header | Correct "Settings" page title should be displayed. | Settings title displayed correctly. | Pass |
+| TC-154 | Settings | Verify profile information is displayed | User profile details should be displayed correctly. | Profile information displayed correctly. | Pass |
+| TC-155 | Settings | Verify editable profile fields | Editable fields should accept valid input. | Editable fields accepted valid input. | Pass |
+| TC-156 | Settings | Verify Consumer ID is read-only | Consumer ID should not be editable. | Consumer ID is read-only. | Pass |
+| TC-157 | Settings | Verify Save Changes functionality | Updated profile information should be saved successfully. | Clicking Save Changes performed no action. | Fail |
+| TC-158 | Settings | Verify Notification Preference toggles | Notification toggles should switch between ON and OFF. | Notification toggles worked correctly. | Pass |
+| TC-159 | Settings | Verify Default Max Price field | User should be able to enter a valid maximum price. | Field accepted valid input. | Pass |
+| TC-160 | Settings | Verify Default Quantity field | User should be able to enter a valid quantity. | Field accepted valid input. | Pass |
+| TC-161 | Settings | Verify Preferred Delivery Window selection | Delivery window should be selectable. | Delivery window selection worked correctly. | Pass |
+| TC-162 | Settings | Verify Preferred Energy Zone selection | Energy zone should be selectable. | Energy zone selection worked correctly. | Pass |
+| TC-163 | Settings | Verify Auto-buying Rule toggles | Auto-buying toggles should switch between ON and OFF. | Auto-buying toggles worked correctly. | Pass |
+| TC-164 | Settings | Verify settings layout and UI alignment | All UI components should be properly aligned and responsive. | Layout displayed correctly. | Pass |
+| TC-165 | Settings | Verify Change Password functionality | Password change screen/dialog should open. | Clicking Change Password performed no action. | Fail |
+| TC-166 | Settings | Verify Enable Two-Factor Authentication functionality | 2FA setup process should start. | Clicking Enable performed no action. | Fail |
+| TC-167 | Settings | Verify Logout Others functionality | All other active sessions should be logged out or a confirmation dialog should appear. | Clicking Logout Others performed no action. | Fail |
+| TC-168 | Settings | Verify Export My Data functionality | User data should be exported/downloaded successfully. | Clicking Export performed no action. | Fail |
+| TC-169 | Settings | Verify Deactivate Account functionality | Deactivation confirmation dialog should appear. | Clicking Deactivate Account performed no action. | Fail |
+| TC-170 | Settings | Verify Settings page responsiveness | Settings page should display correctly on different screen sizes. | Page remained responsive across screen sizes. | Pass |
+| TC-171 | Settings | Verify page refresh behavior | Page should reload without losing data or causing errors. | Page refreshed successfully without issues. | Pass |
+| TC-172 | KYC Status | Verify KYC Status page loads successfully | KYC Status page should load without errors. | KYC Status page loaded successfully. | Pass |
+| TC-173 | KYC Status | Verify page title | "KYC Status" heading should be displayed correctly. | KYC Status heading displayed correctly. | Pass |
+| TC-174 | KYC Status | Verify Buyer Verification Level card | Buyer verification level should display correctly. | Level 2 – Full KYC displayed correctly. | Pass |
+| TC-175 | KYC Status | Verify verification summary | Verification status, account number and verification date should be displayed correctly. | Verification summary displayed correctly. | Pass |
+| TC-176 | KYC Status | Verify Re-KYC due information | Re-KYC due date should be displayed. | Re-KYC due information displayed correctly. | Pass |
+| TC-177 | KYC Status | Verify Document Verification section | Document Verification section should be displayed. | Document Verification section displayed correctly. | Pass |
+| TC-178 | KYC Status | Verify Aadhaar Card verification details | Aadhaar verification details should be displayed correctly. | Aadhaar details displayed correctly. | Pass |
+| TC-179 | KYC Status | Verify PAN Card verification details | PAN verification details should be displayed correctly. | PAN details displayed correctly. | Pass |
+| TC-180 | KYC Status | Verify Bank Account verification details | Bank Account verification details should be displayed correctly. | Bank Account details displayed correctly. | Pass |
+| TC-181 | KYC Status | Verify Address Proof details | Address Proof details should be displayed correctly. | Address Proof displayed correctly. | Pass |
+| TC-182 | KYC Status | Verify Electricity Bill verification details | Electricity Bill verification details should be displayed correctly. | Electricity Bill details displayed correctly. | Pass |
+| TC-183 | KYC Status | Verify Photograph / Live Photo details | Photograph/Live Photo verification should be displayed correctly. | Photograph/Live Photo displayed correctly. | Pass |
+| TC-184 | KYC Status | Verify Upload Additional Document button | Clicking Upload Additional Document should open document upload dialog/page. | Clicking Upload Additional Document performed no action. | Fail |
+| TC-185 | KYC Status | Verify Buyer Limits section | Buyer Limits should display all limits correctly. | Buyer Limits displayed correctly. | Pass |
+| TC-186 | KYC Status | Verify Monthly Usage progress bar | Monthly usage progress bar should display correctly. | Progress bar displayed correctly. | Pass |
+| TC-187 | KYC Status | Verify KYC Level Comparison section | KYC comparison table should display correctly. | KYC comparison table displayed correctly. | Pass |
+| TC-188 | KYC Status | Verify Upgrade to Level 3 (Business) button | Clicking Upgrade to Level 3 should start the Business KYC process. | Clicking Upgrade to Level 3 performed no action. | Fail |
+| TC-189 | KYC Status | Verify Verification Timeline section | Verification Timeline should display all milestones correctly. | Verification Timeline displayed correctly. | Pass |
+| TC-190 | KYC Status | Verify Contact Support button | Clicking Contact Support should open support page/chat/contact form. | Clicking Contact Support performed no action. | Fail |
 | TC-193 | KYC Status | Verify page responsiveness | KYC Status page should remain responsive on different screen sizes. | Page remained responsive. | Pass |
 | TC-194 | KYC Status | Verify page refresh | Refreshing the page should reload data without errors. | Page refreshed successfully. | Pass |
