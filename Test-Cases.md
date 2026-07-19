@@ -135,3 +135,23 @@
 | TC-131 | My Orders | Verify View / Track / Cancel actions | View, Track and Cancel actions should perform their respective operations correctly. | Action buttons worked correctly. | Pass |
 | TC-132 | My Orders | Verify Order Summary section | Total kWh Bought, Pending Amount and Total Spent should be displayed correctly. | Order Summary displayed correctly. | Pass |
 | TC-133 | My Orders | Verify My Orders page responsiveness | My Orders page should remain properly aligned and usable on different screen sizes. | My Orders page remained properly aligned on different screen sizes. | Pass |
+| TC-134 | Purchase History | Verify Purchase History page loads successfully | Purchase History page should load without errors. | Purchase History page loaded successfully. | Pass |
+| TC-135 | Purchase History | Verify Purchase History page title | "Purchase History" title should be displayed correctly. | Purchase History title displayed correctly. | Pass |
+| TC-136 | Purchase History | Verify Total Purchases card | Total Purchases card should display the total number of purchases. | Total Purchases card displayed correctly. | Pass |
+| TC-137 | Purchase History | Verify Total kWh Bought card | Total kWh Bought card should display the purchased energy correctly. | Total kWh Bought card displayed correctly. | Pass |
+| TC-138 | Purchase History | Verify Total Spent card | Total Spent card should display the total spending amount correctly. | Total Spent card displayed correctly. | Pass |
+| TC-139 | Purchase History | Verify Average Price Paid card | Average Price Paid card should display the average price correctly. | Average Price Paid card displayed correctly. | Pass |
+| TC-140 | Purchase History | Verify Seller filter | Seller filter should filter purchase records based on the selected seller. | Seller filter worked correctly. | Pass |
+| TC-141 | Purchase History | Verify Status filter | Status filter should display records matching the selected status. | Status filter worked correctly. | Pass |
+| TC-142 | Purchase History | Verify Amount filter | Amount filter should display records matching the selected amount range. | Amount filter worked correctly. | Pass |
+| TC-143 | Purchase History | Verify Date sorting | Date sorting should arrange purchase records according to the selected order. | Date sorting worked correctly. | Pass |
+| TC-144 | Purchase History | Verify Search functionality | Search should return matching Order ID or Seller Name. | Search returned matching records successfully. | Pass |
+| TC-145 | Purchase History | Verify Apply button | Apply button should apply all selected filters successfully. | Filters applied successfully. | Pass |
+| TC-146 | Purchase History | Verify Export CSV button | Export CSV should download the purchase history in CSV format. | CSV exported successfully. | Pass |
+| TC-147 | Purchase History | Verify Purchase Log table | Purchase Log should display all purchase records correctly. | Purchase Log displayed correctly. | Pass |
+| TC-148 | Purchase History | Verify Purchase Log details | Order ID, Date & Time, Quantity, Rate, Seller, Gross, Fee, Net Paid, CO₂ Saved and Status should display correctly. | Purchase details displayed correctly. | Pass |
+| TC-149 | Purchase History | Verify Status column | Status column should display the correct purchase status. | Status displayed correctly. | Pass |
+| TC-150 | Purchase History | Verify Summary section | Gross Paid, Total CO₂ Saved and Total Settled should display correctly. | Summary section displayed correctly. | Pass |
+| TC-151 | Purchase History | Verify Last 60 Days filter | Clicking Last 60 Days should display purchase records for the last 60 days only. | Last 60 Days filter worked correctly. | Pass |
+| TC-152 | Purchase History | Verify All Time filter | Clicking All Time should display the complete purchase history. | All Time filter worked correctly. | Pass |
+| TC-153 | Purchase History | Verify Purchase History page responsiveness | Purchase History page should remain properly aligned and usable on different screen sizes. | Purchase History page remained properly aligned on different screen sizes. | Pass |
