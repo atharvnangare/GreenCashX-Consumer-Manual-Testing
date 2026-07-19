@@ -95,3 +95,23 @@
 | TC-091 | Wallet | Verify Auto Top-up section | Auto Top-up section should be visible with an enable/disable toggle. | Auto Top-up section displayed correctly. | Pass |
 | TC-092 | Wallet | Verify Auto Top-up toggle | Auto Top-up toggle should change its state when clicked. | Auto Top-up toggle changed state successfully. | Pass |
 | TC-093 | Wallet | Verify Linked Account and Auto Top-up responsiveness | Linked Account and Auto Top-up sections should remain properly aligned on mobile devices. | Linked Account and Auto Top-up sections became misaligned in mobile responsive view. | Fail |
+| TC-094 | Marketplace | Verify Marketplace page loads successfully | Marketplace page should load without any errors. | Marketplace page loaded successfully. | Pass |
+| TC-095 | Marketplace | Verify Marketplace page title | "Marketplace" title should be displayed correctly. | Marketplace title displayed correctly. | Pass |
+| TC-096 | Marketplace | Verify Available Listings card | Available Listings card should display the total number of listings. | Available Listings card displayed correctly with listing count. | Pass |
+| TC-097 | Marketplace | Verify Best Price Today card | Best Price Today card should display the lowest available price. | Best Price Today card displayed correctly. | Pass |
+| TC-098 | Marketplace | Verify Average Market Price card | Average Market Price card should display the average market price. | Average Market Price card displayed correctly. | Pass |
+| TC-099 | Marketplace | Verify My Active Orders card | My Active Orders card should display the active order count. | My Active Orders card displayed correctly. | Pass |
+| TC-100 | Marketplace | Verify Zone filter | Zone filter should filter listings based on the selected zone. | Zone filter worked correctly. | Pass |
+| TC-101 | Marketplace | Verify Time Window filter | Time Window filter should filter listings according to the selected delivery window. | Time Window filter worked correctly. | Pass |
+| TC-102 | Marketplace | Verify Quantity filter | Quantity filter should filter listings based on the selected quantity. | Quantity filter worked correctly. | Pass |
+| TC-103 | Marketplace | Verify Price filter | Price filter should filter listings according to the selected price range. | Price filter worked correctly. | Pass |
+| TC-104 | Marketplace | Verify KYC Verified Only filter | Only KYC verified listings should be displayed when the filter is enabled. | KYC Verified Only filter worked correctly. | Pass |
+| TC-105 | Marketplace | Verify Search functionality | Search should display matching listings based on Seller Name or Listing ID. | Search returned matching listings successfully. | Pass |
+| TC-106 | Marketplace | Verify Search with invalid input | An appropriate message should be displayed when no matching listings are found. | Appropriate message displayed for invalid search. | Pass |
+| TC-107 | Marketplace | Verify Sort (Best Price) | Listings should be sorted according to the selected sorting option. | Listings sorted correctly by Best Price. | Pass |
+| TC-108 | Marketplace | Verify Refresh button | Clicking Refresh should reload the latest marketplace data. | Marketplace data refreshed successfully. | Pass |
+| TC-109 | Marketplace | Verify Export button | Clicking Export should download/export the marketplace listing data. | Marketplace data exported successfully. | Pass |
+| TC-110 | Marketplace | Verify All Zones tab | Clicking All Zones should display listings from all available zones. | All Zones displayed listings successfully. | Pass |
+| TC-111 | Marketplace | Verify Lohara zone tab | Clicking Lohara should display only Lohara listings. | Lohara listings displayed successfully. | Pass |
+| TC-112 | Marketplace | Verify Yavatmal zone tab | Clicking Yavatmal should display only Yavatmal listings. | Yavatmal listings displayed successfully. | Pass |
+| TC-113 | Marketplace | Verify Marketplace responsiveness | Marketplace page should remain properly aligned and usable on different screen sizes. | Marketplace page remained properly aligned on different screen sizes. | Pass |
