@@ -65,6 +65,59 @@
 
 A total of **194** manual test cases were executed for the GreenCashX Consumer module.
 
+
+
+# Search Testing Execution Report
+
+## Project
+GreenCashX Consumer Module – Manual Testing
+
+## Test Summary
+
+| Metric | Count |
+|--------|------:|
+| Total Search Test Cases | 18 |
+| Executed | 18 |
+| Passed | 18 |
+| Failed | 0 |
+| Blocked | 0 |
+| Pass Rate | 100% |
+
+## Module-wise Summary
+
+| Module | Test Cases | Passed | Failed |
+|--------|-----------:|-------:|-------:|
+| Marketplace Search | 9 | 9 | 0 |
+| Purchase History Search | 9 | 9 | 0 |
+
+## Testing Scope
+
+The following search scenarios were verified:
+
+- ✔ Valid Search
+- ✔ Empty Search
+- ✔ Invalid Search
+- ✔ Case-Insensitive Search
+- ✔ Special Character Handling
+- ✔ SQL-like Input Handling
+- ✔ Long Search String Handling
+- ✔ Live Search Response Time
+- ✔ Search with Filters
+
+## Observations
+
+- Search functionality is implemented as **live search**, where results are filtered dynamically while the user types.
+- Search results were updated in less than one second during testing.
+- Search worked correctly with both valid and invalid inputs.
+- Search functionality correctly handled uppercase and lowercase input.
+- Special characters, SQL-like strings, and long input strings were handled gracefully without affecting application stability.
+- Search and filter functionality worked together as expected.
+- No functional or UI issues related to search were identified during testing.
+
+## Conclusion
+
+Search functionality across the Marketplace and Purchase History modules was successfully validated. All planned search test cases passed successfully, and no search-related defects were identified during execution.
+
 - **180** test cases passed successfully.
 - **14** test cases failed due to functional or UI issues.
 - Most application features are working as expected.
