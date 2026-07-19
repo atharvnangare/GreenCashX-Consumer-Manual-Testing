@@ -50,10 +50,10 @@ GreenCashX-Consumer-Manual-Testing/
 
 | Category | Test Cases | Bugs Found |
 |----------|-----------:|-----------:|
-| Functional Testing | 192 | 13 |
+| Functional Testing | 190 | 12 |
 | Search Testing | 18 | 0 |
 | Data Integrity Testing | 20 | 0 |
-| **Total** | **230** | **13** |
+| **Total** | **228** | **12** |
 
 ## Deliverables
 
@@ -77,4 +77,4 @@ GreenCashX-Consumer-Manual-Testing/
 
 ## Outcome
 
-The GreenCashX Consumer Module was tested for functionality, UI behavior, search operations, and data consistency. A total of **230** test cases were executed across Functional, Search, and Data Integrity testing. **13 functional defects** were identified and documented, while Search Testing and Data Integrity Testing completed successfully without any defects.
+The GreenCashX Consumer Module was tested for functionality, UI behavior, search operations, and data consistency. A total of **228** test cases were executed across Functional, Search, and Data Integrity testing. **12 functional defects** were identified and documented, while Search Testing and Data Integrity Testing were completed successfully without any defects.
