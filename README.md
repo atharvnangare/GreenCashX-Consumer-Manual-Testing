@@ -50,10 +50,10 @@ GreenCashX-Consumer-Manual-Testing/
 
 | Category | Test Cases | Bugs Found |
 |----------|-----------:|-----------:|
-| Functional Testing | 194 | 14 |
+| Functional Testing | 192 | 13 |
 | Search Testing | 18 | 0 |
 | Data Integrity Testing | 20 | 0 |
-| **Total** | **232** | **14** |
+| **Total** | **230** | **13** |
 
 ## Deliverables
 
@@ -67,6 +67,14 @@ GreenCashX-Consumer-Manual-Testing/
 - Cross-Page Validation Matrix
 - Supporting Screenshots
 
+## Tools Used
+
+- Manual Testing
+- Google Chrome
+- Chrome Developer Tools (Responsive Testing)
+- GitHub
+- Markdown
+
 ## Outcome
 
-The application was evaluated for functionality, UI behavior, search operations, and data consistency. Functional defects were documented in the bug report, while Search Testing and Data Integrity Testing completed successfully without any defects.
+The GreenCashX Consumer Module was tested for functionality, UI behavior, search operations, and data consistency. A total of **230** test cases were executed across Functional, Search, and Data Integrity testing. **13 functional defects** were identified and documented, while Search Testing and Data Integrity Testing completed successfully without any defects.
