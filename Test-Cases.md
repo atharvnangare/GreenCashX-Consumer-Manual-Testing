@@ -192,5 +192,3 @@
 | TC-188 | KYC Status | Verify Upgrade to Level 3 (Business) button | Clicking Upgrade to Level 3 should start the Business KYC process. | Clicking Upgrade to Level 3 performed no action. | Fail |
 | TC-189 | KYC Status | Verify Verification Timeline section | Verification Timeline should display all milestones correctly. | Verification Timeline displayed correctly. | Pass |
 | TC-190 | KYC Status | Verify Contact Support button | Clicking Contact Support should open support page/chat/contact form. | Clicking Contact Support performed no action. | Fail |
-| TC-193 | KYC Status | Verify page responsiveness | KYC Status page should remain responsive on different screen sizes. | Page remained responsive. | Pass |
-| TC-194 | KYC Status | Verify page refresh | Refreshing the page should reload data without errors. | Page refreshed successfully. | Pass |
